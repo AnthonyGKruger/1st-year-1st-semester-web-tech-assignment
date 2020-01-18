@@ -1,0 +1,102 @@
+h2{
+    color: gold;
+    font-size: 22px;
+}
+
+p{
+    font-size: 18px
+}
+
+li{
+    font-size: 18px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: navy;
+}
+
+.navbar a {
+  float: left;
+  font-size: 22px;
+  color: gold;
+  text-align: center;
+  padding: 16px 30px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .btnProgrammes {
+  font-size: 22px;
+  border: none;
+  outline: none;
+  color: gold;
+  padding: 16px 30px;
+  background-color: navy;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .btnProgrammes {
+  background-color: gold;
+  color: navy;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: navy;
+  color: gold;
+  min-width: 172px;
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown-content a {
+  float: none;
+  padding:16px 30px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: gold;
+  color: navy;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+.footer {
+    background-color: navy;
+    color: gold;
+    padding: 1px;
+    bottom: 0;
+}
+
+input {
+    font-size: 18px;
+}
+
+address {
+    font-size: 18px;
+}
+
+#search_bar{
+    border-radius: 25px splid;
+}
+
+button{
+    padding: 5px;
+}
+
+textarea{
+    font-size: 22px;
+}
